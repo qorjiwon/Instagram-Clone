@@ -96,7 +96,7 @@
     width: 64px;
     height: 64px;
     fill: none;
-    stroke: #c7c7c7;
+    stroke: var(--story-border);
     stroke-width: 1.5;
 }
 
@@ -114,7 +114,7 @@
 .story__user {
     font-size: 12px;
     font-weight: 400;
-    color: #999999;
+    color: var(--text-light);
     text-transform: lowercase;
     max-width: 72px;
     text-overflow: ellipsis;
@@ -171,7 +171,7 @@
 .post_user {
     font-size: 14px;
     font-weight: 500;
-    color: #262626;
+    color: var(--text-dark);
     text-decoration: none;
     text-transform: lowercase;
 }
@@ -261,14 +261,14 @@
 .post__description span {
     font-size: 14px;
     font-weight: 400;
-    color: #262626;
+    color: var(--text-dark);
 }
 
 .post__likes a,
 .post__description a {
     font-size: 14px;
     font-weight: 500;
-    color: #262626;
+    color: var(--text-dark);
     text-decoration: none;
 }
 
@@ -279,7 +279,7 @@
 .post__date-time {
     font-size: 10px;
     font-weight: 400;
-    color: #999999;
+    color: var(--text-light);
     text-transform: uppercase;
 }
 
@@ -304,7 +304,7 @@
         border: 1px solid #DBDBDB;
         border-radius: 4px;
     }
-    .post_footer {
+    .post__footer {
         padding: 4px 8px 12px;
     }
     .post__date-time {
