@@ -16,7 +16,7 @@ textarea {
 
 body {
     min-height: 100vh;
-
+    background-color: var(--primary);
     display: flex;
     flex-direction: column;
     overflow-y: auto;
@@ -28,12 +28,22 @@ img {
 
 :root {
     --primary : #FFFFFF;
-    --secondary: #FAFAFA;
+    --secondary: #fafafa0a;
     --border: #DBDBDB;
 
     --story-border: #C7C7C7;
 
     --text-dark: #262626;
     --text-light:  #999999;
+}
 
+:root.darkTheme {
+    --primary : #000000;
+    --secondary: #050505;
+    --border: #262626;
+
+    --story-border: #707070;
+
+    --text-dark: #FAFAFA;
+    --text-light:  #999999;
 }
