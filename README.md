@@ -1,3 +1,6 @@
 # Instagram-Clone
-![image](https://github.com/qorjiwon/Instagram-Clone/assets/82700743/8e9e94a3-1be6-4cad-908c-57c2915e86de)
+기본
+![image](https://github.com/qorjiwon/Instagram-Clone/assets/82700743/19dc01dc-1d34-49f2-868a-84d80cf1b79c)
+<br><br>
+Dark Mode 지원
 ![image](https://github.com/qorjiwon/Instagram-Clone/assets/82700743/a237796f-42c9-4367-a7c5-fe307ba92e94)
